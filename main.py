@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def main():
-  return {"Hello": "T est"}
+  return {"Hello": "Nuts"}
 
 @app.get("/route")
 def route():
